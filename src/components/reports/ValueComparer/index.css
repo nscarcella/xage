@@ -1,0 +1,52 @@
+.ValueComparer {
+  width: fit-content;
+}
+
+.ValueComparer>div {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ValueComparer>div>div {
+  width: 50%;
+}
+
+.ValueComparer>div>div:first-child {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.ValueComparer input {
+  background-color: #F7F9FA;
+  border-radius: 100px;
+  outline: none;
+  line-height: 25px;
+  width: 200px;
+  border: none;
+  padding-left: 25px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.ValueComparer input, .ValueComparer input::placeholder {
+  color: #A7ACB0;
+}
+
+.ValueComparer svg {
+  position: relative;
+  z-index: 1;
+  left: -212px;
+  top: 0px;
+  margin: 0px -8px;
+  color: #A7ACB0;
+}
+
+.ValueComparer p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ValueComparer label {
+  font-size: 12px;
+}

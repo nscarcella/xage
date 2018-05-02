@@ -1,0 +1,39 @@
+.BulletList li {
+  display: flex;
+  margin: 20px 0px;
+  font-size: 13px;
+}
+
+.BulletList li span:first-child {
+  display: flex;
+  width: 20%;
+  font-weight: bold;
+}
+
+.BulletList li span:last-child:first-letter {
+  text-transform: uppercase;
+}
+
+.BulletList i {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #A9AEB1;
+}
+
+.BulletList .bad {
+  color: red;
+}
+
+.BulletList i.bad {
+  background-color: red;
+}
+
+.BulletList .good {
+  color: green;
+}
+
+.BulletList i.good {
+  background-color: green;
+}

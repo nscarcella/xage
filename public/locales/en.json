@@ -1,0 +1,34 @@
+{
+  "pages": {
+    "securityDashboard": {
+      "title": "Security Dashboard",
+      "devicesComparer": {
+        "title": "devices",
+        "left": "total",
+        "right": "unclaimed"
+      },
+      "usersComparer": {
+        "title": "users",
+        "left": "total",
+        "right": "new"
+      },
+      "applicationsComparer": {
+        "title": "applications",
+        "left": "total",
+        "right": "new"
+      },
+      "devicesSummary": {
+        "title": "devices - summary"
+      },
+      "alerts": {
+        "title": "alerts"
+      },
+      "blockchainStats": {
+        "title": "blockchain stats"
+      }
+    },
+    "policies": {
+      "title": "Policies"
+    }
+  }
+}

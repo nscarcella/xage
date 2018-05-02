@@ -1,0 +1,42 @@
+.SecurityDashboard {
+  display: flex;
+}
+
+.SecurityDashboard .left {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+}
+
+.SecurityDashboard .left>div {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.SecurityDashboard .left>div>div:not(:last-child) {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.SecurityDashboard .right {
+  width: 30%;
+  height: 900px;
+  background-color: #EDF0F2;
+  padding: 20px;
+}
+
+.SecurityDashboard .right>* {
+  margin-bottom: 20px;
+}
+
+.SecurityDashboard .active {
+  border: 3px solid #009BBA;
+  border-radius: 7px;
+  height: fit-content;
+}
+
+.SecurityDashboard .active>div {
+  border-style: none;
+}

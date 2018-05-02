@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0px 20px;
+  border-radius: 0px;
+}
+
+.Header img {
+  float: left;
+  height: 50px;
+  margin-right: 100px;
+}
+
+.Header a, .Header a:visited, .Header a:hover {
+  float: left;
+  margin: 0 10px;
+  line-height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: unset;
+}
+
+.Header a.active {
+  border-bottom: solid 3px;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: inherit;
+  border-color: inherit;
+}
+
+html {
+  color: #004361;
+}
+
+ul {
+  list-style: none;
+}
+
+.page {
+  background-color: #F7F9FA;
+}
+
+.report {
+  background-color: #FFFFFF;
+  border: 1px solid #E1E3E7;
+  border-radius: 5px;
+  padding: 10px 20px 20px 20px;
+}
+
+.report h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.report label {
+  color: #A9AEB1;
+  text-transform: capitalize;
+}
+
+.report hr {
+  border-style: solid;
+  border-width: 1px 0 0 0;
+}

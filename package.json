@@ -1,0 +1,33 @@
+{
+  "name": "xage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "i18next": "^11.2.3",
+    "i18next-xhr-backend": "^1.5.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-i18next": "^7.6.1",
+    "react-icons": "^2.2.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts-ts": "2.15.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/i18next-xhr-backend": "^1.4.1",
+    "@types/jest": "^22.2.3",
+    "@types/node": "9.6.7",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "@types/react-i18next": "^7.6.1",
+    "@types/react-icons": "^2.2.5",
+    "@types/react-router-dom": "^4.2.6",
+    "types": "^0.1.1",
+    "typescript": "^2.8.3"
+  }
+}
