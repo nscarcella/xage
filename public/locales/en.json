@@ -18,7 +18,8 @@
         "right": "new"
       },
       "devicesSummary": {
-        "title": "devices - summary"
+        "title": "devices - summary",
+        "subtitle": "device groups"
       },
       "alerts": {
         "title": "alerts"

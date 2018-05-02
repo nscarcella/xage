@@ -51,9 +51,11 @@ export default ({ data, dispatch }: Props) =>
           />
         </div>
       </div>
-      {data.securityDashboard.active === 'devices' &&
-        <DevicesSummary title='pages.securityDashboard.devicesSummary.title' />
-      }
+      <div>
+        {data.securityDashboard.active === 'devices' &&
+          <DevicesSummary title='pages.securityDashboard.devicesSummary.title' />
+        }
+      </div>
     </div>
     <div className='right'>
       <BulletList title={'pages.securityDashboard.alerts.title'} data={data.alerts} />

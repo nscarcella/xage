@@ -5,7 +5,7 @@
 .SecurityDashboard .left {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 75%;
   padding: 20px;
 }
 
@@ -21,8 +21,7 @@
 }
 
 .SecurityDashboard .right {
-  width: 30%;
-  height: 900px;
+  width: 25%;
   background-color: #EDF0F2;
   padding: 20px;
 }
